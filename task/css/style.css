@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.animation{
+    background-image: url(../images/yol.jpg);
+    background-size: contain;
+    height: 400px;
+    position: relative;
+}
+.car1{
+    width: 150px;
+    position: absolute;
+    bottom: 10%;
+    animation: car 15s 1;
+}
+.car2{
+    width: 150px;
+    position: absolute;
+    bottom: 30%;
+    animation: car 10s 1;
+}
+.car3{
+    width: 150px;
+    position: absolute;
+    bottom: 60%;
+    animation: car 20s 1;
+}
+.car4{
+    width: 150px;
+    position: absolute;
+    bottom: 80%;
+    animation: car 5s 1; 
+}
+@keyframes car {
+    0%{
+        left: 0%;
+    }
+    100%{
+        left: 100%;
+    }
+    
+}
